@@ -1,0 +1,2 @@
+{"_id":"USR-TES","name":"Test User Updated","email":"test@email.com","password":"$2b$12$nmkmYQAEtKdfz8k430KN1ugesJwAuuaaLAlFrx7cnOkzfXkK1U/z6","role":"admin"}
+{"_id":"USR-NOR","name":"Normal User","email":"normal@email.com","password":"$2b$12$zPiyuOz/ClTNHibJYw/KqeIU2aSCL7lmRuwIacZ6lwbHz3JOB2A4G","role":"user"}

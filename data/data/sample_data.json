@@ -1,0 +1,302 @@
+[
+  {
+    "_id": "ACT-001",
+    "user_id": "USR-TES",
+    "activity_type": "Transport",
+    "activity_detail": "Car travel to work",
+    "activity_value": 120,
+    "unit": "km",
+    "emission_factor": 0.21,
+    "carbon_emission": 25.2,
+    "timestamp": "2026-01-05",
+    "sources": [
+      { "source_id": "SRC-001A", "description": "Morning commute", "distance_km": 60, "emission_kg": 12.6 },
+      { "source_id": "SRC-001B", "description": "Evening return", "distance_km": 60, "emission_kg": 12.6 }
+    ]
+  },
+  {
+    "_id": "ACT-002",
+    "user_id": "USR-TES",
+    "activity_type": "Energy",
+    "activity_detail": "Home electricity usage",
+    "activity_value": 300,
+    "unit": "kWh",
+    "emission_factor": 0.233,
+    "carbon_emission": 69.9,
+    "timestamp": "2026-01-10",
+    "sources": [
+      { "source_id": "SRC-002A", "description": "Heating appliances", "distance_km": 0, "emission_kg": 40.0 },
+      { "source_id": "SRC-002B", "description": "Lighting and devices", "distance_km": 0, "emission_kg": 29.9 }
+    ]
+  },
+  {
+    "_id": "ACT-003",
+    "user_id": "USR-TES",
+    "activity_type": "Consumption",
+    "activity_detail": "Beef purchase",
+    "activity_value": 2,
+    "unit": "kg",
+    "emission_factor": 27.0,
+    "carbon_emission": 54.0,
+    "timestamp": "2026-01-15",
+    "sources": [
+      { "source_id": "SRC-003A", "description": "Supermarket beef pack", "distance_km": 0, "emission_kg": 30.0 },
+      { "source_id": "SRC-003B", "description": "Restaurant beef meal", "distance_km": 0, "emission_kg": 24.0 }
+    ]
+  },
+  {
+    "_id": "ACT-004",
+    "user_id": "USR-TES",
+    "activity_type": "Transport",
+    "activity_detail": "Flight London to Paris",
+    "activity_value": 450,
+    "unit": "km",
+    "emission_factor": 0.255,
+    "carbon_emission": 114.75,
+    "timestamp": "2026-01-18",
+    "sources": [
+      { "source_id": "SRC-004A", "description": "Outbound flight leg", "distance_km": 225, "emission_kg": 57.38 },
+      { "source_id": "SRC-004B", "description": "Return flight leg", "distance_km": 225, "emission_kg": 57.37 }
+    ]
+  },
+  {
+    "_id": "ACT-005",
+    "user_id": "USR-TES",
+    "activity_type": "Energy",
+    "activity_detail": "Office gas heating",
+    "activity_value": 500,
+    "unit": "kWh",
+    "emission_factor": 0.182,
+    "carbon_emission": 91.0,
+    "timestamp": "2026-01-22",
+    "sources": [
+      { "source_id": "SRC-005A", "description": "Ground floor heating", "distance_km": 0, "emission_kg": 50.0 },
+      { "source_id": "SRC-005B", "description": "First floor heating", "distance_km": 0, "emission_kg": 41.0 }
+    ]
+  },
+  {
+    "_id": "ACT-006",
+    "user_id": "USR-TES",
+    "activity_type": "Consumption",
+    "activity_detail": "New laptop purchase",
+    "activity_value": 1,
+    "unit": "unit",
+    "emission_factor": 300.0,
+    "carbon_emission": 300.0,
+    "timestamp": "2026-01-28",
+    "sources": [
+      { "source_id": "SRC-006A", "description": "Manufacturing footprint", "distance_km": 0, "emission_kg": 250.0 },
+      { "source_id": "SRC-006B", "description": "Shipping and delivery", "distance_km": 0, "emission_kg": 50.0 }
+    ]
+  },
+  {
+    "_id": "ACT-007",
+    "user_id": "USR-TES",
+    "activity_type": "Transport",
+    "activity_detail": "Motorcycle daily commute",
+    "activity_value": 80,
+    "unit": "km",
+    "emission_factor": 0.114,
+    "carbon_emission": 9.12,
+    "timestamp": "2026-02-03",
+    "sources": [
+      { "source_id": "SRC-007A", "description": "Morning ride", "distance_km": 40, "emission_kg": 4.56 },
+      { "source_id": "SRC-007B", "description": "Evening ride", "distance_km": 40, "emission_kg": 4.56 }
+    ]
+  },
+  {
+    "_id": "ACT-008",
+    "user_id": "USR-TES",
+    "activity_type": "Energy",
+    "activity_detail": "Solar panel home — residual grid use",
+    "activity_value": 80,
+    "unit": "kWh",
+    "emission_factor": 0.233,
+    "carbon_emission": 18.64,
+    "timestamp": "2026-02-07",
+    "sources": [
+      { "source_id": "SRC-008A", "description": "Night-time grid draw", "distance_km": 0, "emission_kg": 12.0 },
+      { "source_id": "SRC-008B", "description": "Cloudy day grid draw", "distance_km": 0, "emission_kg": 6.64 }
+    ]
+  },
+  {
+    "_id": "ACT-009",
+    "user_id": "USR-TES",
+    "activity_type": "Consumption",
+    "activity_detail": "Weekly grocery shop",
+    "activity_value": 15,
+    "unit": "kg",
+    "emission_factor": 2.5,
+    "carbon_emission": 37.5,
+    "timestamp": "2026-02-10",
+    "sources": [
+      { "source_id": "SRC-009A", "description": "Dairy and meat items", "distance_km": 0, "emission_kg": 22.0 },
+      { "source_id": "SRC-009B", "description": "Packaged and processed foods", "distance_km": 0, "emission_kg": 15.5 }
+    ]
+  },
+  {
+    "_id": "ACT-010",
+    "user_id": "USR-TES",
+    "activity_type": "Transport",
+    "activity_detail": "Bus journey city centre",
+    "activity_value": 30,
+    "unit": "km",
+    "emission_factor": 0.089,
+    "carbon_emission": 2.67,
+    "timestamp": "2026-02-12",
+    "sources": [
+      { "source_id": "SRC-010A", "description": "Route 1 — inbound", "distance_km": 15, "emission_kg": 1.34 },
+      { "source_id": "SRC-010B", "description": "Route 1 — outbound", "distance_km": 15, "emission_kg": 1.33 }
+    ]
+  },
+  {
+    "_id": "ACT-011",
+    "user_id": "USR-TES",
+    "activity_type": "Transport",
+    "activity_detail": "Train travel Birmingham to London",
+    "activity_value": 180,
+    "unit": "km",
+    "emission_factor": 0.041,
+    "carbon_emission": 7.38,
+    "timestamp": "2026-02-14",
+    "sources": [
+      { "source_id": "SRC-011A", "description": "Outbound train", "distance_km": 90, "emission_kg": 3.69 },
+      { "source_id": "SRC-011B", "description": "Return train", "distance_km": 90, "emission_kg": 3.69 }
+    ]
+  },
+  {
+    "_id": "ACT-012",
+    "user_id": "USR-TES",
+    "activity_type": "Energy",
+    "activity_detail": "Electric vehicle charging",
+    "activity_value": 60,
+    "unit": "kWh",
+    "emission_factor": 0.233,
+    "carbon_emission": 13.98,
+    "timestamp": "2026-02-17",
+    "sources": [
+      { "source_id": "SRC-012A", "description": "Home overnight charge", "distance_km": 0, "emission_kg": 9.32 },
+      { "source_id": "SRC-012B", "description": "Public rapid charge", "distance_km": 0, "emission_kg": 4.66 }
+    ]
+  },
+  {
+    "_id": "ACT-013",
+    "user_id": "USR-TES",
+    "activity_type": "Consumption",
+    "activity_detail": "Clothing purchase — fast fashion",
+    "activity_value": 3,
+    "unit": "unit",
+    "emission_factor": 10.0,
+    "carbon_emission": 30.0,
+    "timestamp": "2026-02-19",
+    "sources": [
+      { "source_id": "SRC-013A", "description": "T-shirts x2", "distance_km": 0, "emission_kg": 14.0 },
+      { "source_id": "SRC-013B", "description": "Jeans x1", "distance_km": 0, "emission_kg": 16.0 }
+    ]
+  },
+  {
+    "_id": "ACT-014",
+    "user_id": "USR-TES",
+    "activity_type": "Energy",
+    "activity_detail": "Restaurant kitchen gas usage",
+    "activity_value": 1200,
+    "unit": "kWh",
+    "emission_factor": 0.182,
+    "carbon_emission": 218.4,
+    "timestamp": "2026-02-21",
+    "sources": [
+      { "source_id": "SRC-014A", "description": "Lunch service cooking", "distance_km": 0, "emission_kg": 100.0 },
+      { "source_id": "SRC-014B", "description": "Dinner service cooking", "distance_km": 0, "emission_kg": 118.4 }
+    ]
+  },
+  {
+    "_id": "ACT-015",
+    "user_id": "USR-TES",
+    "activity_type": "Transport",
+    "activity_detail": "Taxi rides weekend",
+    "activity_value": 40,
+    "unit": "km",
+    "emission_factor": 0.149,
+    "carbon_emission": 5.96,
+    "timestamp": "2026-02-23",
+    "sources": [
+      { "source_id": "SRC-015A", "description": "Friday night ride out", "distance_km": 20, "emission_kg": 2.98 },
+      { "source_id": "SRC-015B", "description": "Saturday ride home", "distance_km": 20, "emission_kg": 2.98 }
+    ]
+  },
+  {
+    "_id": "ACT-016",
+    "user_id": "USR-TES",
+    "activity_type": "Energy",
+    "activity_detail": "Home boiler gas",
+    "activity_value": 400,
+    "unit": "kWh",
+    "emission_factor": 0.182,
+    "carbon_emission": 72.8,
+    "timestamp": "2026-03-01",
+    "sources": [
+      { "source_id": "SRC-016A", "description": "Hot water usage", "distance_km": 0, "emission_kg": 30.0 },
+      { "source_id": "SRC-016B", "description": "Central heating", "distance_km": 0, "emission_kg": 42.8 }
+    ]
+  },
+  {
+    "_id": "ACT-017",
+    "user_id": "USR-TES",
+    "activity_type": "Consumption",
+    "activity_detail": "Plastic packaging waste",
+    "activity_value": 5,
+    "unit": "kg",
+    "emission_factor": 6.0,
+    "carbon_emission": 30.0,
+    "timestamp": "2026-03-02",
+    "sources": [
+      { "source_id": "SRC-017A", "description": "Food packaging", "distance_km": 0, "emission_kg": 18.0 },
+      { "source_id": "SRC-017B", "description": "Courier packaging", "distance_km": 0, "emission_kg": 12.0 }
+    ]
+  },
+  {
+    "_id": "ACT-018",
+    "user_id": "USR-TES",
+    "activity_type": "Transport",
+    "activity_detail": "Long distance car trip",
+    "activity_value": 320,
+    "unit": "km",
+    "emission_factor": 0.21,
+    "carbon_emission": 67.2,
+    "timestamp": "2026-03-03",
+    "sources": [
+      { "source_id": "SRC-018A", "description": "Motorway driving", "distance_km": 200, "emission_kg": 42.0 },
+      { "source_id": "SRC-018B", "description": "Town driving", "distance_km": 120, "emission_kg": 25.2 }
+    ]
+  },
+  {
+    "_id": "ACT-019",
+    "user_id": "USR-TES",
+    "activity_type": "Consumption",
+    "activity_detail": "Streaming services and devices",
+    "activity_value": 100,
+    "unit": "hours",
+    "emission_factor": 0.036,
+    "carbon_emission": 3.6,
+    "timestamp": "2026-03-03",
+    "sources": [
+      { "source_id": "SRC-019A", "description": "TV streaming", "distance_km": 0, "emission_kg": 2.0 },
+      { "source_id": "SRC-019B", "description": "Laptop streaming", "distance_km": 0, "emission_kg": 1.6 }
+    ]
+  },
+  {
+    "_id": "ACT-020",
+    "user_id": "USR-TES",
+    "activity_type": "Transport",
+    "activity_detail": "Delivery van — business use",
+    "activity_value": 200,
+    "unit": "km",
+    "emission_factor": 0.272,
+    "carbon_emission": 54.4,
+    "timestamp": "2026-03-04",
+    "sources": [
+      { "source_id": "SRC-020A", "description": "Morning delivery round", "distance_km": 100, "emission_kg": 27.2 },
+      { "source_id": "SRC-020B", "description": "Afternoon delivery round", "distance_km": 100, "emission_kg": 27.2 }
+    ]
+  }
+]
